@@ -17,9 +17,9 @@ body:has(.hero) .hero-image:after{display:none}
 @media(max-width:980px){body:has(.hero) .hero{grid-template-columns:1fr}body:has(.hero) .hero-image{height:auto;min-height:0}body:has(.hero) .hero-image img{width:100%;height:auto;max-height:none;object-fit:contain}}
 
 /* Hero image: 100% of container height, vertically centered */
-.hero .hero-image img{height:100%!important;max-height:none!important;width:100%!important;object-fit:contain!important;object-position:center center!important}
+.hero .hero-image img{width:100%!important;height:auto!important;max-height:none!important;object-fit:contain!important;object-position:center center!important}
 .hero .hero-image{display:flex;align-items:center;justify-content:center}
-@media(max-width:980px){.hero .hero-image{height:440px;min-height:440px}.hero .hero-image img{height:100%!important;max-height:none!important}}
+@media(max-width:980px){.hero .hero-image{height:440px;min-height:440px}.hero .hero-image img{width:100%!important;height:auto!important;max-height:none!important}}
 </style></head><body>
 <header class="top"><div class="wrap topin"><a class="brand" href="#inicio"><img src="https://4sk8.com.br/assets/4sk8-logo-darkbg.png" alt="4SK8" class="brand-image"></a><button class="burger" onclick="document.querySelector('nav').classList.toggle('open')" aria-label="Abrir menu">☰ MENU</button><nav id="nav"></nav></div></header>
 <main id="app"></main><footer class="footer"><div class="wrap footerin"><div><a class="brand" href="#inicio"><img src="https://4sk8.com.br/assets/4sk8-logo-darkbg.png" alt="4SK8" class="brand-image"></a><p>SKATE É RUA. SKATE É CULTURA.<br>A cena cresce quando todo mundo se conecta.</p><span class="zine">SKATE NÃO PARA!</span></div><div id="footerlinks" class="footerlinks"></div></div><div class="wrap footnote">PROVA VISUAL EM DESENVOLVIMENTO · SITE OFICIAL 4SK8.COM.BR NÃO ALTERADO · FOTOS ORIGINAIS SEM RECRIAÇÃO POR IA</div></footer>
